@@ -1,11 +1,19 @@
 programa {
   funcao inicio() {
-    inteiro n1, n2, subtracao
-    escreva("Informe um número: ")
-    leia(n1)
-    escreva("Informe outro número: ")
-    leia(n2)
-    subtracao = n1-n2
-    escreva("O seu número é: ", subtracao)
+    inteiro a, b, soma, subtracao
+
+
+    escreva("Digite o primeiro número: ")
+    leia(a)
+    escreva("Digite o segundo número: ")
+    leia(b)
+
+
+    soma = a + b
+    subtracao = a - b
+
+
+    escreva("\nA soma desses dois valores é: ",soma)
+    escreva("\nA subtração desses dois números é: ",subtracao)
   }
 }
